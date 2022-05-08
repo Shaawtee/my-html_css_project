@@ -1,0 +1,115 @@
+/*////my first project,it worked///*/
+
+ 
+ body {
+    font-family: arial;
+     margin: 0;
+     background-color: rgb(231, 216, 216);
+ }
+
+     #wrapper {
+          width: 980px;
+          margin: 0 auto;
+          background: #fff;
+  }
+          
+    #main-navigation {
+           background-color: #050c08;
+           padding: 10px;
+    }
+  
+         
+  
+   #main-navigation ul {
+        text-align: right;
+        list-style-type: none;
+        margin-right: 10px;
+  }
+             
+  
+   #main-navigation li {
+         display:inline-block;
+         margin-left: 20px
+   }
+              
+
+   #main-navigation a {
+        color:#fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding:  6px;
+    
+      }
+       /*/container holding the image and text/*/
+
+     #container {
+       position: relative;
+       text-align: center;
+       color: #eee;
+
+
+ }
+     #top.left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+}
+       #shop {
+          margin: 30px 0;
+          text-align: center;
+ }
+
+      #shop h2.product-name {
+          font-size: 30px;
+          margin-bottom: 0;
+  }
+
+     #shop span.price{
+          display: block;
+          font-size: 30px;
+
+}
+  
+    #shop a.book-inspection {
+            display: block;
+            color: #8f746c;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-decoration: none;
+            padding: 10px 0;
+            border: 2px solid #8f746c;
+            width: 210px;
+            margin: 20px auto;
+
+}
+   #shop a.book-inspection:hover {
+          color: #eee;
+           background: #8f746c;
+
+}
+     #foot-banner img {
+         width: 100%;
+
+
+     }
+
+foot-banner h1 {
+        text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
